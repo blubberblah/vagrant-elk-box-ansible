@@ -21,6 +21,8 @@ elasticsearch_plugins:
 #marvel
 elasticsearch_plugin_marvel_version: latest
 elasticsearch_plugin_marvel_agent_enabled: "false"
-elasticsearch_http_cors_enabled: "true"
-elasticsearch_http_cors_allow_origin: "http://localhost:5601"
 elasticsearch_pid_dir: /run/elasticsearch
+
+#cors (e.g. for marvel and elastic-hq)
+elasticsearch_http_cors_enabled: "true"
+elasticsearch_http_cors_allow_origin: "*"
