@@ -25,4 +25,4 @@ elasticsearch_pid_dir: /run/elasticsearch
 
 #cors (e.g. for marvel and elastic-hq)
 elasticsearch_http_cors_enabled: "true"
-elasticsearch_http_cors_allow_origin: "*"
+elasticsearch_http_cors_allow_origin: '"*"'
