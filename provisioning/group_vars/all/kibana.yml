@@ -9,5 +9,5 @@ kibana_user: kibana
 kibana_group: kibana
 kibana_plugins:
  - { name: elastic/sense,  shortname: sense }
- - {name: kibana/timelion, shortname: timelion }
+ #- {name: kibana/timelion, shortname: timelion }
  #- { name: elasticsearch/marvel/latest, shortname: marvel }
